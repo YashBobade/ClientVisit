@@ -1,0 +1,571 @@
+@charset "UTF-8";
+body{
+    	margin:0px;
+    }
+.Nav_name{
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    
+}
+
+ .footer-section {
+    
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+  }
+
+.table{
+	background-color: goldenrod;
+}
+
+.alert {
+    padding: 10px;
+    margin: 20px 0;
+    color: white;
+    background-color: green;
+}
+
+.vf{
+    margin-left: 550px;
+    image-rendering: auto;
+}
+
+ul{
+    border: solid red 1px;
+    padding: 10px;
+    display: inline;
+    margin-inline: 10px;
+    text-decoration-line: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+ul:hover{
+	 background-color: gainsboro;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
+
+}
+
+.page2{
+    width: 100%;
+}
+
+.search-input{
+    padding: 7px 20px;
+    border: solid skyblue 1px;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+.search{
+    background-color: rgb(209, 61, 61);
+    padding: 10px;
+    border: solid rgb(209, 61, 61) ;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.showentity{
+    margin-right: 50%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.pagination{
+    margin-left: 88%;
+    border: solid black 0px ;
+    width: 140px;
+    
+}
+
+.page-number{
+    background-color:skyblue;
+    padding: 2px;
+}
+
+
+td{
+    padding:20px ;
+    background-color: rgb(235, 235, 235);
+}
+
+
+
+
+label{
+    margin-left: 780px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.search-input2{
+    border: solid skyblue 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+.foot{
+    border:solid white;
+    background-color: rgb(253, 74, 74);
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #f14f43; 
+  }
+  #myTable th, #myTable td {
+        text-align: center;
+        vertical-align: middle;
+    }
+  .social-icons a {
+    margin: 0 5px;
+    background-color: white;
+    color: #f14f43;
+    padding: 10px;
+    margin-inline: 15px;
+    font-size: 20px;
+    border-radius: 35px;
+  }
+  
+.box{
+    border: solid rgb(230, 218, 218) 1px;
+    margin: 15px;
+    
+}
+
+  .social-icons a,#f{
+    margin: 0 5px;
+    background-color: white;
+    color: #f14f43;
+    padding: 5px;
+    margin-inline: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+.social-icons:hover{
+	transform: scale(1.1);
+}
+  .copyright p {
+    margin: 0;
+    color: #fff;
+  }
+
+.fi{
+	  border-radius: 10px;
+      transition: transform 0.3s ease;
+      margin-right: 100px;
+      justify-content: center;
+    margin-left: 150px;
+	border-radius: 5px;
+  }
+  .fi:hover {
+        transform: scale(1.1);
+    }
+  
+  .edit{
+    background-color: rgb(41, 154, 199);
+    padding: 3px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid rgb(41, 154, 199) ;
+    cursor: pointer;
+}
+.delete{
+    background-color: rgb(199, 41, 41);
+    padding: 3px;
+    margin-left: 2px;
+    border-radius: 5px;
+    border: solid rgb(199, 41, 41);
+    cursor: pointer;
+}
+
+.controls{
+    margin: 10px;
+    border: solid gray;
+    background-color: gray;
+    size: 10px;
+    padding: 2px;
+    margin-right: 70%;
+    border-radius: 5px;
+}
+
+.but,#columnVisibility{
+    border: solid gray;
+    background-color: gray;
+    cursor: pointer;
+    padding: 2px;
+    color: white;
+    font-size: 15px;
+    size: 10px;
+    
+}
+
+.but:hover{
+    background-color: rgb(78, 77, 77);
+}
+
+.adddata{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+
+.e-d{
+	border:solid black 1px;
+	padding:2px;
+	margin-right:2px;
+	border-radius: 5px;
+}
+
+.edit{
+    color: white;
+    text-decoration: none;
+    
+}
+.edit:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+.delete{
+	background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+   
+}
+.delete:hover {
+    background-color: darkred;
+}
+
+
+.dataTables_wrapper .dataTables_filter {
+            float: right;
+            text-align: right;
+        }
+
+        .dataTables_wrapper .dataTables_paginate {
+            float: right;
+            margin-top: 10px;
+        }
+
+        .dataTables_wrapper .dataTables_length {
+            float: left;
+            margin-top: 10px;
+        }
+
+        
+        .dataTables_wrapper .dataTables_paginate .paginate_button {
+            padding: 5px 10px;
+            margin: 0 3px;
+            background-color: #f2f2f2;
+            border-radius: 3px;
+            border: 1px solid #ddd;
+        }
+
+        .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+            background-color: #ddd;
+            border: 1px solid #ccc;
+        }
+
+        
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+            background-color: #007bff;
+            color: white !important;
+            border: 1px solid #007bff;
+            margin-bottom:10px;
+        }
+
+      
+        .dataTables_wrapper .dataTables_filter input {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+       
+        table.dataTable {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+.dataTables_wrapper .dataTables_length {
+    float: left;
+    margin-bottom: 10px; 
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    margin-bottom: 10px; 
+}
+
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.dataTables_wrapper .dataTables_length label {
+    font-size: 14px;
+    color: #333;
+    margin-left: 86%;
+    border:solid #ccc 2px;
+    border-radius: 5px;
+}
+.hm{
+  	margin-left:90%;
+  	color:blue;
+  	border:solid gainsboro 1px;
+  	padding: 2px;
+  	border-radius: 5px;
+  	
+  }
+.dataTables_wrapper .dataTables_length select {
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+
+
+.dataTables_wrapper .dataTables_filter input {
+    padding: 5px;
+    border-radius: 4px;
+    border: 3px solid #ccc;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+        padding: 8px 12px;
+        margin: 0 4px;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+
+    
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        background-color: #0056b3; 
+    }
+
+    
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+        background-color: #0056b3; 
+        color: white; 
+    }
+
+   
+    .dataTables_wrapper .dataTables_paginate .paginate_button.previous {
+        background-color: #28a745;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button.previous:hover {
+        background-color: #218838;
+    }
+
+    
+    .dataTables_wrapper .dataTables_paginate .paginate_button.next {
+        background-color: #ffc107;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button.next:hover {
+        background-color: #e0a800; 
+    }
+
+   
+    .dataTables_wrapper .dataTables_paginate {
+        margin: 20px 0;
+    }
+    
+    .dt-button {
+            background-color: #4CAF50; 
+            color: white;          
+            border: none;             
+            padding: 10px 20px;        
+            text-align: center;        
+            text-decoration: none;     
+            display: inline-block;     
+            font-size: 14px;           
+            margin: 4px 2px;           
+            cursor: pointer;           
+            border-radius: 8px;       
+            transition-duration: 0.4s; 
+        }
+
+        .dt-button:hover {
+            background-color: #45a049;
+            color: white; 
+        }
+
+        .dataTables_wrapper .dt-buttons {
+            margin-bottom: 10px;  
+        }
+        
+        
+        
+        @media (max-width: 480px) {
+			.vf {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%; 
+    }
+    
+    .ani{
+		font-size: 30px;
+		margin-left: 50%;
+	}
+    
+    .Nav_name {
+		margin:5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    th, td {
+        font-size: 12px;
+        padding: 8px; 
+    }
+
+	.fi{
+		margin:8px;
+	}
+	
+    .search-input,
+    .search-input2,
+    .search {
+        font-size: 12px; 
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        margin:5px;
+    }
+
+    .social-icons a {
+        margin: 5px;
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    .edit, .delete {
+        padding: 5px; 
+    }
+    table {
+        width: 100%; 
+        display: block;
+        overflow-x: auto; 
+        white-space: nowrap; 
+    }
+
+    th, td {
+        font-size: 14px; 
+        padding: 10px; 
+    }
+
+    
+    thead {
+        display: none;
+    }
+
+    tbody, tr {
+        display: block;
+        margin-bottom: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff; 
+        text-align: center;
+    }
+
+    tr {
+        padding: 3px; 
+    }
+
+    td {
+        display: block; 
+        justify-content: space-between; 
+        align-items: center;
+        padding: 10px; 
+        border: none;
+    }
+
+    td::before {
+        content: attr(data-label); 
+        font-weight: bold; 
+        margin-right: 10px;
+    }
+
+	
+    
+    .edit, .delete {
+        padding: 5px;
+        font-size: 12px; 
+    }
+
+    .pagination {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .pagination button {
+        margin-bottom: 5px;
+        padding: 8px; 
+        font-size: 14px; 
+    }
+     #typing-animation{
+		display: none;
+	}
+    
+}
